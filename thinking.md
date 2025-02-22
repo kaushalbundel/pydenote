@@ -5,7 +5,8 @@
 
 ## Features of the program
 
-- The programs helps in defining the name of the file and creating the file for further note taking. Usually the naming of things is the most complicated aspect of the programming. This problem has been solved by using a standard template which is quite intuitive and it makes very convenient to retrieve files using simple command line tools such as grep.
+- The program is a CLI program that creates a markdown file with a specific name in the format described below.
+- The program helps in defining the name of the file and creating the file for further note taking. Usually the naming of things is the most complicated aspect of the programming. This problem has been solved by using a standard template which is quite intuitive and it makes very convenient to retrieve files using simple command line tools such as grep.
   - The nomenclature builds on Three components:
     - Date: The starting point of the file is centered around dates so that the notes can be sorted by dates.
     - Name of the file: The name associated with the file. It could be anything that the user suggests
@@ -31,10 +32,6 @@ description: This is a sample document showing YAML frontmatter
 version: 1.0
 
 ---
-
-# Actual content starts here
-
-The rest of your markdown content goes here...
 
     - This is how the meta data should be added, some pointers about same:
 
