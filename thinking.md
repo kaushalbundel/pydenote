@@ -20,3 +20,30 @@
 - Output: The user will get a confirmation that the file has been created with the desired name (Combination of date, name and tags). The file will be a markdown file.
   - In the next version I can perhaps provide another option to the user for creating either a markdown file or a txt file.
   - I can also prepend the title of the note and the tags to the note itself.
+
+---
+
+title: My Document
+author: John Doe
+date: 2024-02-22
+tags: [documentation, tutorial]
+description: This is a sample document showing YAML frontmatter
+version: 1.0
+
+---
+
+# Actual content starts here
+
+The rest of your markdown content goes here...
+
+    - This is how the meta data should be added, some pointers about same:
+
+        - Must be at the very start of the file
+        - Must be enclosed by triple-dashes (---)
+        - Uses YAML syntax for key-value pairs
+        - Can include arrays, nested objects, and multiple values
+
+## Technical Pointers
+
+- I would be using UV for pip, package management etc.
+- This will require additional learning curve
