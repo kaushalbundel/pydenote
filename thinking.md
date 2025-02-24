@@ -44,3 +44,4 @@ version: 1.0
 
 - I would be using UV for pip, package management etc.
 - This will require additional learning curve
+- For storing tags, I would be using
