@@ -4,6 +4,7 @@
 
 from datetime import datetime
 from typing import Tuple
+from dataclasses import dataclass
 
 
 def get_date_time() -> Tuple[str, str]:
@@ -12,3 +13,12 @@ def get_date_time() -> Tuple[str, str]:
     """
     formatted_date: str = datetime.today().strftime("%Y%m%d %H%M%S")
     return tuple(formatted_date.split(" "))
+
+
+@dataclass
+class Tags:
+    """
+    Class for capturing the tag information.
+    default location: location for capturing all the tags
+
+    """

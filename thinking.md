@@ -45,3 +45,24 @@ version: 1.0
 - I would be using UV for pip, package management etc.
 - This will require additional learning curve
 - For storing tags, I would be using
+
+### Class Tags
+
+- UX: Before every file is created, the program should ask for the Tags to be submitted. The program will already have all the record of the tags available system wide (All the tags that were used till now)
+- If new tags needed then the user can enter the tags using comma separated values, the new tags will be added into the system repository.
+- The user should be able to view all the old tags that they have entered.
+
+Things Needed:
+
+- A file in which all tags are stored
+- A prompt asking for new tags after displaying the tag information
+  - Tag information: This will be a method
+  - prompt: This can be handled by the main program
+    - Tag saving: This can be a method
+    - Only unique tags to be stored, method to check the tags that are already there
+
+Problems:
+
+- How to access the file from every location?:
+  - By Hardcoding the file location.
+    - How can I do that?
